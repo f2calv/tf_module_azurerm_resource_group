@@ -1,11 +1,6 @@
-//https://www.terraform.io/docs/providers/azurerm/d/resource_group.html
+# https://registry.terraform.io/providers/hashicorp/azurerm/latest/docs/resources/resource_group
 resource "azurerm_resource_group" "this" {
-  # lifecycle {
-  #   prevent_destroy = true
-  # }
-
   name     = var.resource_group_name
   location = var.location
-  //subscription_id = "????"
-  tags = var.tags
+  tags     = var.tags
 }
