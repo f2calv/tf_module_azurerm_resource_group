@@ -1,7 +1,4 @@
----
-title: Terraform Module for Azure Resource Group
-description: Provision an Azure Resource Group with a configurable location and tags
----
+# Terraform Module for Azure Resource Group
 
 Provisions an [Azure Resource Group](https://registry.terraform.io/providers/hashicorp/azurerm/latest/docs/resources/resource_group).
 
