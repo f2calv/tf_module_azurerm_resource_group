@@ -19,7 +19,7 @@ graph LR
 
 ```hcl
 module "rg" {
-  source              = "git::https://github.com/f2calv/tf_module_azurerm_resource_group.git//src?ref=0.2.2"
+  source              = "git::https://github.com/f2calv/tf_module_azurerm_resource_group.git//src?ref=0.3.0"
   resource_group_name = "my-resource-group"
   location            = "West Europe"
   tags                = { environment = "dev" }
